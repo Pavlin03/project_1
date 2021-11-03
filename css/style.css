@@ -1,160 +1,75 @@
 html {
-    height: 100%;
-}			
+   height: 100%;
+}
+			
 body {
     margin: 0;
     min-height: 100%;
     display: flex;
     flex-direction: column;
-	font: normal 16px/24px Arial;
+    
 }
 a {
-	text-decoration: none;
+    text-decoration: none;
+    width: 0px;
 }
-a:hover {
-	text-decoration: underline;
-}
-.container {
-	display: flex;
-	width: 1400px;
-	margin: 0 auto;
-	gap: 20px;
-	flex-direction: none;
-}
+			       
+
 header {
-	flex: none;
-	background: #316099;
-	color: #fff;
-}	
-		
-footer {
-	height: 200px;
-	background: #316099;
-	color: #fff;
-	padding: 91px 0 64px;
-	flex: none;
-}
-main {                
-    flex: 1 0 auto; 
-    position: relative;
-}
-/*header*/
-.mainheader .container {
-	display: flex;
 	height: 100px;
-	align-items: center;
-	gap: 24px;
+	flex: 0 0 auto;
+    background: #f9edf5;
+    display: block;
+    justify-content: space-between;    
+}
+
+main {          
+    flex: 1 0 auto;
+    position: relative;
+    margin: 0px;
+    opacity: 0.9;
+    
+}
+			
+footer {
+    height: 100px;            
+    flex: 0 0 auto;
+    background: #f9edf5;
+}
+.logo_start{
+    align-content: flex-end;
 }
 .logo {
-	background: url('../img/logo_1.svg') left top no-repeat;
-	display: block;
-	flex: none;
-	width: 64;
-	height: 64;
-	background-size: cover;	
-}	
-.lang_se {
-	background: url('../img/fag.svg') top center no-repeat;
-	width: 36;
-	height: 36;
-	background-size: cover;
-	
+display: block;    
+width: 50px;
+height: 50px;
+background: url("../img/logo_2.svg")  no-repeat left;
+flex: none;
+float: left;
+margin-top: 30px;
+margin-right: 50px;    
 }
-.go_login {
-	background: url('../img/user-default.svg') top right no-repeat;
-	width: 64;
-	height: 64;
-	background-size: cover;	
+.logo_body {
+    
 }
-.searchline {
-    flex: 1 1 auto;
-	background: #fff;
-	padding: 16px;
-	height: 24px;
-	border-radius: 4px;
+.container {  
+    margin: 0 auto;
+    width: 1400px; 
+    display: flex;  
 }
-/*footer*/
-p {
-	margin: 0;
-	letter-spacing: 0.05em;
-	opacity: 0.6;
+.img/allance.png {
+    display: 
 }
-footer {
-	height: 502px;
-	background: #316099;
-	color: #fff;
-	padding: 91px 0 64px;
-	flex: none;
-}
-hr {
-    border-color: white;
-    opacity: 0.4;
-}
-button {
-	background: #5a98d0;
-	color: #fff;
-	height: 26px;
-	border: none;
-	padding: 0;
-	margin: 0;
-	cursor: pointer;
-	font: 400 normal 16px/26px 'Roboto';
-	letter-spacing: 0.04em;
-}
-footer button {
-	width: 150px;
-	height: 56px;
-	float: right;
-	margin-top: 74px;
-}
-footer p {
-	width: 490px;
-	margin-bottom: 96px;
-}
-footer .heading {
-	font: 400 normal 36px/46px 'Roboto';
-	opacity: 1;
-	margin-bottom: 32px;
-}
-footer .copy {
-	opacity: 0.4;
-	margin: 0;
-}
-footer ol {
-	margin: 64px 0;
-	display: flex;
-	justify-content: space-between;
-	padding-left: 17px;
-}
-footer li {
-	flex: 0 0 316px;
-	padding-left: 25px;
-	letter-spacing: 0.05em;
-}
-/*main*/    
-main {
-	height: 500px;
-	flex: 1 0 auto;
-	position: relative;
-	background-color: #ada9a9;
-	display: flex-direction;
-}	
-.searcontry {
-    flex: 1 1 auto;
-	background: #fff;
-	padding: 16px;
-	height: 24px;
-	border-radius: 4px;
-	width: 300px;
+.flag {
+    width: 30px;
+    height: 30px;
+    background: url("../img/fag.svg") no-repeat right;
+    float: right;
+    margin-right: 500px;
+    margin-top: 30px;
+    float: right;
 }
 
-
-.searcity {
-	flex: 1 1 auto;
-	background: #fff;
-	padding: 16px;
-	height: 24px;
-	border-radius: 4px;
-	width: 300px;
-    flex-direction: row;	
+.logo_body {
+    width: 28%;
 }
